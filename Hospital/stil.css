@@ -1,0 +1,520 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu_bar {
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: -20;
+}
+
+    .logo img {
+        height: 75px;
+    }
+
+.menu ul li {
+    font-family: Ebrima;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.menu a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 0px solid black;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.menu li:hover a {
+    color: #b2b2b2;
+    background-color: black;
+}
+
+.arama {
+    height: 80px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.resimKapsayici {
+    position: relative;
+}
+
+.ust_kisim {
+    margin: 20px;
+    background: url("arkaplan2.jpg");
+    width: 80%;
+    height: 60vh;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resimKapsayici a.a1 {
+    display: flex;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+}
+
+.resimKapsayici a.a2 {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Comic Sans MS';
+}
+
+.resimYazisi {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.resimYazisi1 {
+    position: absolute;
+    right: 140px;
+    top: 10px;
+}
+
+.resimYazisi2 {
+    position: absolute;
+    left: 200px;
+    top: 10px;
+}
+
+.resimYazisi3 {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.galeri {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: -20px;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("arkaplan.jpg");
+    height: 50vh;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .galeri .web {
+        color: white;
+        font-family: 'Comic Sans MS';
+        font-size: 15px;
+        margin-top: 250px;
+    }
+
+    .galeri .buton {
+        font-family: 'Comic Sans MS';
+        text-align: center;
+        border-radius: 15px 15px 15px 15px;
+        height: 200px;
+        margin-top: 50px;
+        width: 60%;
+        font-family: Ebrima;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+        box-sizing: border-box;
+        border: 1px;
+        background-color: #4451c9;
+        transition: 0.5;
+    }
+
+    .galeri a {
+        font-family: 'Comic Sans MS';
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+        text-align: center;
+    }
+
+.web1 {
+    color: black;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    margin-top: 150px;
+}
+/*Alt alan CSS kodları*/
+
+.alt_alan {
+    font-family: 'Comic Sans MS';
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+    background-color: #ffffff;
+    color: black;
+}
+
+    .alt_alan .icerik {
+        text-decoration: none;
+        width: 33%;
+        padding: 30px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-family: Ebrima;
+    }
+
+        .alt_alan .icerik img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+
+.icerik a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.form {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    background: url("arkaplan2.jpg");
+    width: 78%;
+    height: 20vh;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .form a {
+        display: block;
+        float: left;
+        width: 100%;
+        text-decoration: none;
+    }
+
+    .form span {
+        border-radius: 5px 5px 5px 5px;
+        width: 300px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Comic Sans MS';
+        display: block;
+        background-color: #4451c9;
+        height: 50px;
+        padding: 0 50px;
+        line-height: 28px;
+        color: white;
+    }
+
+.form1 {
+    display: flex;
+    background: url("arkaplan1.jpg");
+    width: 81%;
+    height: 80vh;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+    .form1 .kayan_menu {
+        display: block;
+        text-decoration: none;
+        width: 30%;
+        border-radius: 5px;
+        margin: 2% 0;
+        box-sizing: border-box;
+        background: #e2e2e2;
+        margin: 20px;
+        font-family: 'Comic Sans MS';
+        color: #0070a0;
+        font-size: 15px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+
+
+.aa ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 200px;
+    background-color: #e2e2e2;
+}
+
+    .aa ul li {
+        position: relative;
+    }
+
+.aa li a {
+    display: block;
+    color: #606060;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid silver;
+}
+
+    .aa li a:hover {
+        background-color: #ac8cd1;
+        color: white;
+    }
+
+.aa li:hover ul {
+    display: block;
+}
+
+.aa ul li ul {
+    position: absolute;
+    left: 200px;
+    top: 0;
+    display: none;
+}
+
+.buton2 {
+    padding: 20px;
+    height: 50px;
+    width: 50%;
+}
+
+    .buton2 span {
+        border-radius: 5px 5px 5px 5px;
+        margin-top: 30px;
+        display: flex;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Comic Sans MS';
+        display: block;
+        background-color: #4451c9;
+        height: 50px;
+        padding: 0 50px;
+        line-height: 28px;
+        color: white;
+        float: left;
+        width: 50%;
+        text-decoration: none;
+    }
+
+.footer {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 81%;
+    height: 40vh;
+    background-color: #4451c9;
+    color: white;
+}
+
+    .footer .f {
+        width: 33%;
+        padding: 30px;
+        box-sizing: border-box;
+        text-align: justify;
+        font-family: Ebrima;
+    }
+
+.f a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sosyal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81%;
+    font-size: 15px;
+    border-top: 1px solid #4b44c9;
+    background-color: #4b44c9;
+    color: white;
+}
+
+
+/*tablet görünüm kodları*/
+@media only screen and (max-width:992px) {
+    .ust_kisim {
+        background: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .form1 {
+        width: 83%;
+        height: 80vh;
+    }
+
+        .form1 .kayan_menu {
+            display: block;
+            text-decoration: none;
+            width: 50%;
+            border-radius: 5px;
+            margin: 2% 0;
+            box-sizing: border-box;
+            background: #e2e2e2;
+            margin: 20px;
+            font-family: 'Comic Sans MS';
+            color: #0070a0;
+            font-size: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+    .footer {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 83%;
+        height: 50vh;
+        background-color: #4451c9;
+        color: white;
+    }
+
+    .sosyal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 83%;
+        font-size: 15px;
+        border-top: 1px solid #4b44c9;
+        background-color: #4b44c9;
+        color: white;
+    }
+}
+
+/*cep telefon boyutu kodları*/
+@media only screen and (max-width:768px) {
+    .menu_bar {
+        justify-content: space-between;
+        font-size: 10px;
+    }
+
+    .ust_kisim {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .ust_kisim {
+        flex-direction: column;
+    }
+
+    .ust_kisim {
+        background: none;
+    }
+
+    .resimYazisi1 {
+        position: absolute;
+        right: 250px;
+        top: 190px;
+    }
+
+    .resimYazisi3 {
+        position: absolute;
+        right: 150px;
+        top: 190px;
+    }
+
+    .galeri {
+        background: none;
+    }
+
+        .galeri .buton {
+            margin-bottom: 100px;
+            margin-top: 100px;
+            height: 500px;
+            width: 400px;
+        }
+
+    .web1 {
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+
+    .alt_alan {
+        margin-bottom: 100px;
+        height: 400px;
+        flex-direction: row;
+    }
+
+    .form1 {
+        background: none;
+    }
+
+        .form1 .kayan_menu {
+            display: block;
+            text-decoration: none;
+            width: 90%;
+            border-radius: 5px;
+            margin: 2% 0;
+            box-sizing: border-box;
+            background: #e2e2e2;
+            margin: 20px;
+            font-family: 'Comic Sans MS';
+            color: #0070a0;
+            font-size: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+    .footer {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 50vh;
+        background-color: #4451c9;
+        color: white;
+    }
+
+    .sosyal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 15px;
+        border-top: 1px solid #4b44c9;
+        background-color: #4b44c9;
+        color: white;
+    }
+}
